@@ -1,6 +1,14 @@
 :root {
   --text-color: white;
   --text-shadow: black 4px 7px;
+  
+  --card-bkg: #ffffff58;
+  --border-comp: 1px solid white;
+  --border-comp-color: #ffffff58;
+  --city-text-color: var(--text-color);
+
+  --btn-normal: red;
+  --btn-hover-x:white;
 }
 
 .App {

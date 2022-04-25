@@ -5,7 +5,10 @@ import Cards from './components/Cards.jsx';
 import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
 
-import Header from './components/Header'
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+// const API_KEY = "b9fd7b8644a72c87e5bd3b214a46a743";
 
 function App() {
   return (
@@ -24,12 +27,11 @@ function App() {
           img={Cairns.weather[0].icon}
           onClose={() => alert(Cairns.name)}
         />
-      </div>
-      <div>
         <Cards
           cities={data}
         />
       </div>
+      <Footer />
     </div>
   );
 }

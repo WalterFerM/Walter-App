@@ -1,7 +1,7 @@
 .headerModule {
     display:grid;
     grid-template-columns: 1fr 2fr;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     height: auto;
     margin: auto;
     width: 100%;
