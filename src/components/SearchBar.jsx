@@ -14,7 +14,7 @@ export default function SearchBar({onSearch}) {
   <div className={Styles.search}>
     <input type="text" name="input-city" id="search-input" placeholder="...Search City..." />
     <button onClick={handleOnsearch} className={StylesBtn.closeBtn}>
-      <FaSearch/>
+      <FaSearch />
       <span>Search</span>
     </button>
   </div>
