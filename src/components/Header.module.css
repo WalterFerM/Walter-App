@@ -1,0 +1,25 @@
+.headerModule {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 1.6rem;
+    height: auto;
+    margin: auto;
+    width: 100%;
+    color:var(--text-color);
+}
+
+.headerModule > a {
+    margin: auto auto;
+}
+
+.headerModule > a > img {
+    width: 25vw;
+    max-width: 8rem;
+    border-radius: 50%;
+    min-width: 2rem;
+}
+
+.headerModule > h1 {
+    text-shadow: var(--text-shadow);
+}
+
