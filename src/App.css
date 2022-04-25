@@ -5,6 +5,10 @@
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10rem 4rem 39rem 6rem;
 }
 
 .App-logo {
