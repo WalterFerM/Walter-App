@@ -1,5 +1,18 @@
+:root {
+  --text-color: white;
+  --text-shadow: black 4px 7px;
+}
+
 .App {
   text-align: center;
+  background-color: #00000085;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 4rem 39rem 6rem;
 }
 
 .App-logo {

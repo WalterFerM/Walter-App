@@ -5,9 +5,17 @@ import Cards from './components/Cards.jsx';
 import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
 
+import Header from './components/Header'
+
 function App() {
   return (
     <div className="App">
+      <Header />
+      <div>
+        <SearchBar
+          onSearch={(ciudad) => alert(ciudad)}
+        />
+      </div>
       <div>
         <Card
           max={Cairns.main.temp_max}
@@ -17,16 +25,9 @@ function App() {
           onClose={() => alert(Cairns.name)}
         />
       </div>
-      <hr />
       <div>
         <Cards
           cities={data}
-        />
-      </div>
-      <hr />
-      <div>
-        <SearchBar
-          onSearch={(ciudad) => alert(ciudad)}
         />
       </div>
     </div>
