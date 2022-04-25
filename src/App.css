@@ -3,12 +3,16 @@
   --text-shadow: black 4px 7px;
   
   --card-bkg: #ffffff58;
-  --border-comp: 1px solid white;
+  --border-comp: 1px;
   --border-comp-color: #ffffff58;
   --city-text-color: var(--text-color);
 
   --btn-normal: red;
   --btn-hover-x:white;
+}
+
+a {
+  text-decoration: none;
 }
 
 .App {
@@ -20,7 +24,7 @@
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 4rem 39rem 6rem;
+  grid-template-rows: auto 3.5rem 39rem 6rem;
 }
 
 .App-logo {
@@ -56,4 +60,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }

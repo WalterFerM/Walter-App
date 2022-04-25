@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import Card from './components/Card.jsx';
 import Cards from './components/Cards.jsx';
-import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import SearchBar from './components/SearchBar.jsx';
+import Navbar from './components/Navbar';
 
 // const API_KEY = "b9fd7b8644a72c87e5bd3b214a46a743";
 
@@ -14,7 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div>
+      <div className="Nav">
+        <Navbar />
         <SearchBar
           onSearch={(ciudad) => alert(ciudad)}
         />
