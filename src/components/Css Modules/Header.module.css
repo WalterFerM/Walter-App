@@ -3,8 +3,8 @@
     grid-template-columns: 1fr 2fr;
     font-size: 1.2rem;
     height: auto;
-    margin: auto;
-    width: 100%;
+    margin: auto auto;
+    padding:0.5rem;
     color:var(--text-color);
 }
 
@@ -14,7 +14,7 @@
 
 .headerModule > a > img {
     width: 25vw;
-    max-width: 8rem;
+    max-width: 80px;
     border-radius: 50%;
     min-width: 2rem;
 }
