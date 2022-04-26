@@ -1,13 +1,13 @@
 :root {
   --text-color: white;
-  --text-shadow: black 4px 7px;
+  --text-shadow: black -3px -2px 2px;
   
   --card-bkg: #ffffff58;
   --border-comp: 1px;
   --border-comp-color: #ffffff58;
   --city-text-color: var(--text-color);
 
-  --btn-normal: red;
+  --btn-normal: #8b000097;
   --btn-hover-x:white;
 }
 
@@ -65,4 +65,6 @@ a {
 .Nav {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background: linear-gradient(to top, black, transparent);
+  border-bottom: 1px solid gray;
 }

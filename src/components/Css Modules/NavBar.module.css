@@ -8,6 +8,21 @@
 .navUl > a {
     color: var(--text-color);
     font-weight: 500;
+    transition: 0.25s;
+    text-shadow: var(--text-shadow);
+}
+
+.navUl > a:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.gradient {
+    background: linear-gradient(to top, black, transparent);
+}
+
+.navIcon {
+    padding: 0 1vw;
 }
 
 /* .navContainer { */
