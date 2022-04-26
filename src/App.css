@@ -24,7 +24,7 @@ a {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 3.5rem 39rem 6rem;
+  grid-template-rows: auto 50px minmax(80vh, auto) 3rem;
 }
 
 .App-logo {

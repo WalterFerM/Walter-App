@@ -52,6 +52,7 @@
 .temp {
     display: flex;
     flex-direction: column;
+    color: var(--city-text-color);
 }
 
 .temp > label {
